@@ -6,6 +6,11 @@
 body {
   width: 428px;
   margin: 0;
+  border: 1px solid black;
+}
+
+img {
+  display: block;
 }
 
 .maintitle {
@@ -20,7 +25,7 @@ header {
 
 h1 {
   color: #000;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: Nunito Sans;
   font-size: 50px;
   font-weight: 800;
   line-height: 50px; /* 100% */
@@ -28,13 +33,13 @@ h1 {
 }
 
 .year {
-  font-family: "Noto Serif", serif;
+  font-family: Noto Serif;
   font-weight: 300;
 }
 
 .subtitle {
   color: #fff;
-  font-family: "Noto Serif", serif;
+  font-family: Noto Serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 24px; /* 120% */
@@ -47,7 +52,7 @@ nav {
 
 .page {
   color: #fff;
-  font-family: "Noto Serif", serif;
+  font-family: Noto Serif;
   font-size: 18px;
   font-weight: 300;
   text-decoration: none;
@@ -68,6 +73,7 @@ h2 {
 .onflexbox {
   display: flex;
   flex-flow: row nowrap;
+  justify-content: center;
 }
 
 .show {
@@ -78,4 +84,107 @@ h2 {
 .information {
   border: 1px solid #000;
   border-top: 7px solid var(--violet);
+  height: 168px;
+}
+
+.date,
+.contry {
+  color: #000;
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 15px; /* 100% */
+}
+
+.name {
+  color: #000;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px; /* 133.333% */
+  text-transform: uppercase;
+}
+
+.fullprogramme {
+  background-color: #000;
+  margin: 0 97px;
+  padding: 20px 30px;
+}
+
+.fullprogramme p {
+  color: #d7a1fd;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 800;
+  text-decoration: none;
+  line-height: 15px; /* 100% */
+  text-transform: uppercase;
+}
+
+.citation {
+  background-color: var(--green);
+}
+
+.sentence {
+  color: #000;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 28px; /* 93.333% */
+  letter-spacing: -1.5px;
+  text-transform: uppercase;
+}
+
+.autor {
+  color: #000;
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 15px; /* 100% */
+  text-transform: uppercase;
+}
+
+.wathsnew {
+  background-color: #f4ede8;
+}
+
+.wathsnew img {
+  border-radius: 20px 20px 0 0;
+}
+
+.newflexbox {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.new {
+  width: 189px;
+  background-color: #fff;
+  border-radius: 20px;
+  color: #000;
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 22px; /* 146.667% */
+  margin: 5px;
+}
+
+.new p {
+  margin: 20px;
+}
+
+.title {
+  font-style: italic;
+  font-weight: 800;
+  line-height: 22px;
+  text-transform: uppercase;
 }
