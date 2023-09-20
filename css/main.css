@@ -201,6 +201,7 @@ h3 {
   text-transform: uppercase;
   background: var(--violet);
   padding: 20px;
+  margin: 0;
 }
 
 .opportunites {
@@ -227,8 +228,8 @@ h3 {
   width: 50%;
   height: 112px;
   flex-shrink: 0;
-  display: flex;
-  flex-flow: row nowrap;
+  padding: 20px 10px;
+  box-sizing: border-box;
 }
 
 footer {
@@ -256,6 +257,12 @@ h4 {
   text-transform: uppercase;
 }
 
+.transformflexbox {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
 .mail a {
   color: #fff;
   text-align: center;
@@ -265,4 +272,8 @@ h4 {
   font-weight: 300;
   line-height: 18px; /* 138.462% */
   text-decoration: none;
+}
+
+.mail {
+  margin-bottom: 112px;
 }
