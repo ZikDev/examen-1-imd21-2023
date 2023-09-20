@@ -165,6 +165,7 @@ h2 {
 
 .wathsnew {
   background-color: #f4ede8;
+  padding: 20px;
 }
 
 .wathsnew img {
@@ -175,6 +176,7 @@ h2 {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
+  margin: 30px 0;
 }
 
 .new {
