@@ -114,7 +114,7 @@ h2 {
 }
 
 .fullprogramme p {
-  color: #d7a1fd;
+  color: var(--violet);
   text-align: center;
   font-family: Nunito Sans;
   font-size: 15px;
@@ -187,4 +187,82 @@ h2 {
   font-weight: 800;
   line-height: 22px;
   text-transform: uppercase;
+}
+
+h3 {
+  color: #000;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 50px; /* 100% */
+  letter-spacing: -2.5px;
+  text-transform: uppercase;
+  background: var(--violet);
+  padding: 20px;
+}
+
+.opportunites {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.opportunitie a {
+  color: #000;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 24px; /* 120% */
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: auto;
+}
+
+.opportunitie {
+  border: 1px solid #000;
+  background: var(--green);
+  width: 50%;
+  height: 112px;
+  flex-shrink: 0;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+footer {
+  background-color: #000;
+}
+
+h4 {
+  color: #313131;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 50px; /* 100% */
+  text-transform: uppercase;
+}
+
+.mail p {
+  color: #fff;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 18px; /* 138.462% */
+  text-transform: uppercase;
+}
+
+.mail a {
+  color: #fff;
+  text-align: center;
+  font-family: Noto Serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px; /* 138.462% */
+  text-decoration: none;
 }
