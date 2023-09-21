@@ -221,6 +221,7 @@ h3 {
 .opportunites {
   display: flex;
   flex-flow: row wrap;
+  padding-bottom: 60px;
 }
 
 .opportunitie a {
